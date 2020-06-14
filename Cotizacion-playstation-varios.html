@@ -1,0 +1,278 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>StoreGamerPlus Playstation</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link href='http://fonts.googleapis.com/css?family=Maven+Pro:400,900,700,500' rel='stylesheet' type='text/css'>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!--- start-mmmenu-script---->
+<link type="text/css" rel="stylesheet" href="css/jquery.mmenu.all.css" />
+    	<link href="css/bootstrap.min.css" rel="stylesheet"/>
+    
+
+  
+</head>
+      <script type="text/javascript">
+function multiplicar(){
+var m1=("cantidad1");//cantidad
+var m2=("precio1");//valor del producto
+var m3=("cantidad2");//cantidad
+var m4=("precio2");//valor del producto
+var m5=("cantidad3");//cantidad
+var m6=("precio3");//valor del producto
+var m7=("cantidad4");//cantidad
+var m8=("precio4");//valor del producto
+
+m1 = document.getElementById("cantidad1").value;
+m2 = document.getElementById("precio1").value;
+m3 = document.getElementById("cantidad2").value;
+m4 = document.getElementById("precio2").value;
+m5 = document.getElementById("cantidad3").value;
+m6 = document.getElementById("precio3").value;
+m7 = document.getElementById("cantidad4").value;
+m8 = document.getElementById("precio4").value;
+    
+    
+r1 = m1*m2;
+r2 = m3*m4;
+r3 = m5*m6;
+r4 = m7*m8;
+st = r1+r2+r3+r4;
+iva = st * 19 / 100;//calculo iva
+total= st + iva;//total de la operacion
+    
+
+document.getElementById("subtotal1").value = r1.toFixed(0);
+document.getElementById("subtotal2").value = r2.toFixed(0);
+document.getElementById("subtotal3").value = r3.toFixed(0);
+document.getElementById("subtotal4").value = r4.toFixed(0);
+document.getElementById("subtotaltotal").value = st.toFixed(0);
+document.getElementById("resultadoiva").value = iva.toFixed(0);
+document.getElementById("resultadototal").value = total.toFixed(0);
+}
+    </script>
+<body>
+<!-- start header -->
+<div class="top_bg">
+<div class="wrap">
+	<div class="header">
+		<div class="logo">
+			<a href="index.html"><img src="images/logo.png" alt="logo"/></a><div class="eslogan">Consolas - Juegos Y Mas </div>
+		</div> <!-- Aqui va el logo -->
+		 	
+						
+		<div class="clear"></div>
+	</div>	
+</div>
+</div>
+<!-- start header_btm -->
+    <br>
+    <br>
+<div class="wrap">
+<div class="header_btm">
+		<div class="menu">
+			<ul>
+				<li><a href="index.html">Principal</a></li>
+				<li><a href="Xbox.html">Xbox</a></li>
+				<li class="active"><a href="Playstation.html">Play Station</a></li>
+				<li><a href="Nintendo.html">Nintendo</a></li>
+				<div class="clear"></div>
+			</ul>
+		</div>
+		
+
+	
+	<div class="clear"></div>
+</div>
+</div>
+<!-- start top_bg -->
+<div class="top_bg">
+<div class="wrap">
+<div class="main_top">
+	<h2 class="style">COTIZACION VARIOS </h2> <img src="images/Todas-las-play.jpg" style="width: 159px;margin-left: 412px;border-radius:52px;margin-top: -86px;">
+</div>
+</div>
+</div>
+<!-- start main -->
+<div class="main_bg">
+<div class="wrap">
+
+		<div id="team-section" class="team-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-sm-5">
+					
+				<div class="contact-form contact-add-form">
+					
+					
+					<form class="form-horizontal" name="formulario" action="#" method="POST">
+						<div class="form-group">
+                            <br>
+                           
+                            <h1>Datos Del Cliente</h1>
+                             <hr>
+							<label class="col-md-2 col-sm-3" style="text-align: right; color: #115571;margin-top: 13px;" title="Nombre Completo.">NOMBRE:</label>
+							<div class="col-md-4 col-sm-9">
+								<input type="text" class="form-control" id="name" placeholder="Ingresar nombre empresa" name="nombre" >
+							</div>
+                            <label class="col-md-2 col-sm-3" style="text-align: right; color: #115571;margin-top: 13px;"  title="Ingrese nombre del contacto solo si es empresa">APELLIDO</label>
+							<div class="col-md-4 col-sm-9">
+								<input type="text" class="form-control" id="celular" placeholder="Ingrese nombre del contacto" name="apellido">
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="col-md-2 col-sm-3" style="text-align: right; color: #115571;margin-top: 13px;"  title="Ingrese numero de telefono">TELEFONO:</label>
+							<div class="col-md-4 col-sm-9">
+								<input type="text" class="form-control" id="celular" placeholder="Ingrese numero de telefono" name="telefono">
+							</div>
+                            <label class="col-md-2 col-sm-3" style="text-align: right; color: #115571;margin-top: 13px;"  title="Ingrese numero de telefono">CORREO:</label>
+							<div class="col-md-4 col-sm-9">
+								<input type="email" class="form-control" id="celular" placeholder="Ingrese correo electronico" name="correo">
+							</div>
+                            
+                            
+						</div>	
+                          <br>
+                              <h1>Precios</h1>
+		
+						<hr>
+                        <div class="form-group">
+							<label class="col-md-2 col-sm-3" style="text-align: right; color: #115571;margin-top: 13px;"  title="Ingrese numero de telefono">PRODUCTO 1:</label>
+							<div class="col-md-2 col-sm-9">
+								<input type="text" class="form-control" id="celular" value="Playstation 1" name="producto1">
+							</div>
+                            <label class="col-md-1 col-sm-3" style="text-align: right; color: #115571;margin-top: 13px;"  >CANTIDAD:</label>
+						<div class="col-md-1 col-sm-3">		
+                           
+							<input type="text" class="form-control"  name="cantidad1"  id="cantidad1" onkeyup="multiplicar();">
+						</div>
+						<label class="col-md-1 col-sm-3" style="text-align: right; color: #115571;margin-top: 13px;"  >PRECIO:</label>
+						<div class="col-md-1 col-sm-3">		
+                           
+							<input type="text" class="form-control"  value="150000" name="precio1"  id="precio1" onkeyup="multiplicar();">
+						</div>
+                            <label class="col-md-1 col-sm-3" style="text-align: right; color: #115571;margin-top: 13px;"  >SUBTOTAL:</label>
+						<div class="col-md-1 col-sm-3">		
+                           
+							<input type="text" class="form-control"  value="" name="subtotal1"  id="subtotal1" onkeyup="multiplicar();">
+						</div>
+						</div>	
+                         <div class="form-group">
+							<label class="col-md-2 col-sm-3" style="text-align: right; color: #115571;margin-top: 13px;"  title="Ingrese numero de telefono">PRODUCTO 2:</label>
+							<div class="col-md-2 col-sm-9">
+								<input type="text" class="form-control" id="celular" value="Playstation 2" name="producto2">
+							</div>
+                            <label class="col-md-1 col-sm-3" style="text-align: right; color: #115571;margin-top: 13px;"  >CANTIDAD:</label>
+						<div class="col-md-1 col-sm-3">		
+                           
+							<input type="text" class="form-control"  name="cantidad2"  id="cantidad2" onkeyup="multiplicar();">
+						</div>
+						<label class="col-md-1 col-sm-3" style="text-align: right; color: #115571;margin-top: 13px;"  >PRECIO:</label>
+						<div class="col-md-1 col-sm-3">		
+                           
+							<input type="text" class="form-control"  value="300000" name="precio2"  id="precio2" onkeyup="multiplicar();">
+						</div>
+                            <label class="col-md-1 col-sm-3" style="text-align: right; color: #115571;margin-top: 13px;"  >SUBTOTAL:</label>
+						<div class="col-md-1 col-sm-3">		
+                           
+							<input type="text" class="form-control"  value="" name="subtotal2"  id="subtotal2" onkeyup="multiplicar();">
+						</div>
+						</div>	
+                         <div class="form-group">
+							<label class="col-md-2 col-sm-3" style="text-align: right; color: #115571;margin-top: 13px;"  title="Ingrese numero de telefono">PRODUCTO 3:</label>
+							<div class="col-md-2 col-sm-9">
+								<input type="text" class="form-control" id="celular" value="Playstation 3"  name="producto3">
+							</div>
+                            <label class="col-md-1 col-sm-3" style="text-align: right; color: #115571;margin-top: 13px;"  >CANTIDAD:</label>
+						<div class="col-md-1 col-sm-3">		
+                           
+							<input type="text" class="form-control"  name="cantidad3"  id="cantidad3" onkeyup="multiplicar();">
+						</div>
+						<label class="col-md-1 col-sm-3" style="text-align: right; color: #115571;margin-top: 13px;"  >PRECIO:</label>
+						<div class="col-md-1 col-sm-3">		
+                           
+							<input type="text" class="form-control"  value="800000" name="precio3"  id="precio3" onkeyup="multiplicar();">
+						</div>
+                            <label class="col-md-1 col-sm-3" style="text-align: right; color: #115571;margin-top: 13px;"  >SUBTOTAL:</label>
+						<div class="col-md-1 col-sm-3">		
+                           
+							<input type="text" class="form-control"  value="" name="subtotal3"  id="subtotal3" onkeyup="multiplicar();">
+						</div>
+						</div>	
+                         <div class="form-group">
+							<label class="col-md-2 col-sm-3" style="text-align: right; color: #115571;margin-top: 13px;"  title="Ingrese numero de telefono">PRODUCTO 4:</label>
+							<div class="col-md-2 col-sm-9">
+								<input type="text" class="form-control" id="celular" value="Playstation 4" name="producto4">
+							</div>
+                            <label class="col-md-1 col-sm-3" style="text-align: right; color: #115571;margin-top: 13px;"  >CANTIDAD:</label>
+						<div class="col-md-1 col-sm-3">		
+                           
+							<input type="text" class="form-control"  name="cantidad4"  id="cantidad4" onkeyup="multiplicar();">
+						</div>
+						<label class="col-md-1 col-sm-3" style="text-align: right; color: #115571;margin-top: 13px;"  >PRECIO:</label>
+						<div class="col-md-1 col-sm-3">		
+                           
+							<input type="text" class="form-control"  value="1500000" name="precio4"  id="precio4" onkeyup="multiplicar();">
+						</div>
+                            <label class="col-md-1 col-sm-3" style="text-align: right; color: #115571;margin-top: 13px;"  >SUBTOTAL:</label>
+						<div class="col-md-1 col-sm-3">		
+                           
+							<input type="text" class="form-control"  value="" name="subtotal4"  id="subtotal4" onkeyup="multiplicar();">
+						</div>
+						</div>	
+                           
+                                    
+					<div class="form-group">	
+                       
+						
+					<label class="col-md-2 col-sm-3" style="text-align: right; color: #ff0000;margin-top: 13px;"  >SUBTOTAL:</label>
+						<div class="col-md-2 col-sm-3">		
+                           
+							<input type="text" class="form-control"  value="" name="subtotaltotal"  id="subtotaltotal" onkeyup="multiplicar();">
+						</div>
+                        
+                                <label class="col-md-2 col-sm-3" style="text-align: right; color: #ff0000;margin-top: 13px;"  >IVA:</label>
+						<div class="col-md-2 col-sm-3">		
+                           
+							<input type="text" class="form-control"  placeholder="$" name="resultadoiva"  id="resultadoiva" onkeyup="multiplicar();">
+						</div>
+					
+							
+                                
+					<label class="col-md-2 col-sm-3" style="text-align: right; color: #ff0000;margin-top: 13px;"  >TOTAL:</label>
+						<div class="col-md-2 col-sm-3">		
+                           
+							<input type="text" class="form-control"  value="" name="resultadototal"  id="resultadototal" onkeyup="multiplicar();">
+						</div>
+							</div>
+								<hr>
+							
+						<div class="form-group">
+			
+						<center>
+						<input type="submit" value="GENERAR CON IVA" id="cotizacion" name="cotizacion" class="myButton">
+                            <input type="submit" value="GENERAR SIN IVA" id="cotizacion" name="cotizacion2" class="myButton"><br>
+						</center>
+                                </div>
+			</form>
+			</div>
+		</div>
+		</div>
+</div>
+	<!-- Customized Scripts -->
+            <script src="js/functions.js"></script></div></div></div>
+            
+
+<!-- start footer -->
+<div class="footer_top">
+
+<div class="footer">
+	
+
+</div>
+</div>
+
+
+</body>
+</html>
