@@ -1,0 +1,186 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>StoreGamerPlus Nintendo</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link href='http://fonts.googleapis.com/css?family=Maven+Pro:400,900,700,500' rel='stylesheet' type='text/css'>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!--- start-mmmenu-script---->
+<link type="text/css" rel="stylesheet" href="css/jquery.mmenu.all.css" />
+    	<link href="css/bootstrap.min.css" rel="stylesheet"/>
+    
+
+  
+</head>
+      <script type="text/javascript">
+function multiplicar(){
+var m1=("cantidad");//cantidad
+var m2=("precio");//valor del producto
+
+m1 = document.getElementById("cantidad").value;
+m2 = document.getElementById("precio").value;
+
+r = m1*m2;
+iva = r * 19 / 100;//calculo iva
+total= r + iva;//total de la operacion
+
+document.getElementById("subtotal").value = r.toFixed(0);
+document.getElementById("resultadoiva").value = iva.toFixed(0);
+document.getElementById("resultadototal").value = total.toFixed(0);
+}
+    </script>
+<body>
+<!-- start header -->
+<div class="top_bg">
+<div class="wrap">
+	<div class="header">
+		<div class="logo">
+			<a href="index.html"><img src="images/logo.png" alt="logo"/></a><div class="eslogan">Consolas - Juegos Y Mas </div>
+		</div> <!-- Aqui va el logo -->
+		 	
+						
+		<div class="clear"></div>
+	</div>	
+</div>
+</div>
+<!-- start header_btm -->
+    <br>
+    <br>
+<div class="wrap">
+<div class="header_btm">
+		<div class="menu">
+			<ul>
+				<li><a href="index.html">Principal</a></li>
+				<li><a href="Xbox.html">Xbox</a></li>
+				<li><a href="Playstation.html">Play Station</a></li>
+				<li class="active"><a href="Nintendo.html">Nintendo</a></li>
+				<div class="clear"></div>
+			</ul>
+		</div>
+		
+
+	
+	<div class="clear"></div>
+</div>
+</div>
+<!-- start top_bg -->
+<div class="top_bg">
+<div class="wrap">
+<div class="main_top">
+    <h2 class="style"><font color="#7b0404">COTIZACION NINTENDO SWITCH</font></h2> <img src="images/NintendoSwitch.jpg" style="width: 159px;margin-left: 630px;border-radius:52px;margin-top: -86px;">
+</div>
+</div>
+</div>
+<!-- start main -->
+<div class="main_bg">
+<div class="wrap">
+
+		<div id="team-section" class="team-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-sm-5">
+					
+				<div class="contact-form contact-add-form">
+					
+					
+					<form class="form-horizontal" name="formulario" action="#" method="POST">
+						<div class="form-group">
+                            <br>
+                           
+                            <h1>Datos Del Cliente</h1>
+                             <hr>
+							<label class="col-md-2 col-sm-3" style="text-align: right; color: #7b0404;margin-top: 13px;" title="Nombre Completo.">NOMBRE:</label>
+							<div class="col-md-4 col-sm-9">
+								<input type="text" class="form-control" id="name" placeholder="Ingresar nombre empresa" name="nombre" >
+							</div>
+                            <label class="col-md-2 col-sm-3" style="text-align: right; color: #7b0404;margin-top: 13px;"  title="Ingrese nombre del contacto solo si es empresa">APELLIDO</label>
+							<div class="col-md-4 col-sm-9">
+								<input type="text" class="form-control" id="celular" placeholder="Ingrese nombre del contacto" name="apellido">
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="col-md-2 col-sm-3" style="text-align: right; color: #7b0404;margin-top: 13px;"  title="Ingrese numero de telefono">TELEFONO:</label>
+							<div class="col-md-4 col-sm-9">
+								<input type="text" class="form-control" id="celular" placeholder="Ingrese numero de telefono" name="telefono">
+							</div>
+                            <label class="col-md-2 col-sm-3" style="text-align: right; color: #7b0404;margin-top: 13px;"  title="Ingrese numero de telefono">CORREO:</label>
+							<div class="col-md-4 col-sm-9">
+								<input type="email" class="form-control" id="celular" placeholder="Ingrese correo electronico" name="correo">
+							</div>
+                            
+                            
+						</div>	
+                         <br>
+                           
+                            <h1>Precios</h1>
+		
+                            <hr>
+					
+                                <div class="form-group">
+						<label class="col-md-2 col-sm-3" style="text-align: right; color: #7b0404;margin-top: 13px;"  >CANTIDAD:</label>
+						<div class="col-md-2 col-sm-3">		
+                           
+							<input type="text" class="form-control"  name="cantidad"  id="cantidad" onkeyup="multiplicar();">
+						</div>
+						<label class="col-md-2 col-sm-3" style="text-align: right; color: #7b0404;margin-top: 13px;"  >PRECIO:</label>
+						<div class="col-md-2 col-sm-3">		
+                           
+							<input type="text" class="form-control"  value="1840000" name="precio"  id="precio" onkeyup="multiplicar();">
+						</div>
+                        </div>
+                                
+                                    
+					<div class="form-group">	
+                       
+						
+					<label class="col-md-2 col-sm-3" style="text-align: right; color: #ff0000;margin-top: 13px;"  >SUBTOTAL:</label>
+						<div class="col-md-2 col-sm-3">		
+                           
+							<input type="text" class="form-control"  value="" name="subtotal"  id="subtotal" onkeyup="multiplicar();">
+						</div>
+                        
+                                <label class="col-md-2 col-sm-3" style="text-align: right; color: #ff0000;margin-top: 13px;"  >IVA:</label>
+						<div class="col-md-2 col-sm-3">		
+                           
+							<input type="text" class="form-control"  placeholder="$" name="resultadoiva"  id="resultadoiva" onkeyup="multiplicar();">
+						</div>
+					
+							
+                                
+					<label class="col-md-2 col-sm-3" style="text-align: right; color: #ff0000;margin-top: 13px;"  >TOTAL:</label>
+						<div class="col-md-2 col-sm-3">		
+                           
+							<input type="text" class="form-control"  value="" name="resultadototal"  id="resultadototal" onkeyup="multiplicar();">
+						</div>
+							</div>
+								<hr>
+							
+						<div class="form-group">
+			
+						<center>
+					<input type="submit" value="GENERAR CON IVA" id="cotizacion" name="cotizacion" class="myButton">
+                            <input type="submit" value="GENERAR SIN IVA" id="cotizacion" name="cotizacion2" class="myButton"><br>
+						</center>
+                                </div>
+			</form>
+			</div>
+		</div>
+		</div>
+</div>
+	<!-- Customized Scripts -->
+            <script src="js/functions.js"></script></div></div></div>
+            
+
+<!-- start footer -->
+<div class="footer_top">
+
+<div class="footer">
+	
+
+</div>
+</div>
+
+
+</body>
+</html>
