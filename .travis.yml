@@ -1,10 +1,10 @@
-lenguaje: php
+language: php
 version:
 - "7.2.28"
 deploy: 
   provider: pages
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
-  local_dir: storegamerplus/dist/
+  local_dir: storegamerplus
   on:
     branch: master
