@@ -5,7 +5,7 @@ before_install: cd ./storegamerplus
 deploy: 
   provider: pages
   skip_cleanup: true
-  github_token: "que es?"
+  github_token: $GITHUB_TOKEN
   local_dir: storegamerplus/dist/
   on:
     branch: master
