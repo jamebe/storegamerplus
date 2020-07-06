@@ -1,9 +1,11 @@
-
-
- 
-  language: "php",
-  HTML:
-     -"7.2.28"
-
-
-
+lenguaje: php
+version:
+- "7.2.28"
+before_install: cd ./storegamerplus
+deploy: 
+  provider: pages
+  skip_cleanup: true
+  github_token: "que es?"
+  local_dir: storegamerplus/dist/
+  on:
+    branch: master
