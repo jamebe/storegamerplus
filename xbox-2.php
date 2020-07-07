@@ -145,7 +145,7 @@ function contadorvisitas()
      $this->SetFillColor(255,255,255);//color texto
      $this->SetTextColor(20);//Opacidad del texto
 //Datos
-        $this->Image('images/Cotizaciones/play-2-1.jpg',0,0,210);//imagen imagen principal  margen izq / altura top / tamaño
+        $this->Image('images/Cotizaciones/xbox-2-1.jpg',0,0,210);//imagen imagen principal  margen izq / altura top / tamaño
          $this->Image('images/logo.png',-1,0,50);//imagen imagen principal  margen izq / altura top / tamaño
          $this->SetTextColor(255,255,255);//Opacidad del texto
 
@@ -214,7 +214,7 @@ $this->cell(110,5,'           315 739 9574',0,'','L',0,'https://api.whatsapp.com
     
      $pdf->AddPage3();
     $pdf->SetY(37);
-$pdf->Image('images/Cotizaciones/play-2-2.jpg',0,0,210);//imagen Linea del footer  margen izq / altura top / tamaño
+$pdf->Image('images/Cotizaciones/xbox-2-2.jpg',0,0,210);//imagen Linea del footer  margen izq / altura top / tamaño
 $pdf->SetFont('helvetica','',12);//letra:   tipo / negrita / tamaño
 $fill=false;
 $fill=!$fill;   
@@ -232,23 +232,23 @@ $fill=true;
     $pdf->SetTextColor(0,0,0);//Opacidad del texto
     $pdf->SetFont('helvetica','B', 15);//letra:   tipo / negrita=B  italica=I subrayado=U / tamaño
 
-    $pdf->Write(8,utf8_decode('LA SEGUNDA EDICION DEL PS'));
+    $pdf->Write(8,utf8_decode('LA 360 DE SIEMPRE'));
      $pdf->SetTextColor(64,64,65);//Opacidad del texto
     $pdf->Ln(10);//salto de linea  
     $pdf->SetFont('helvetica','', 12);//letra:   tipo / negrita=B  italica=I subrayado=U / tamaño
-       $pdf->Write(10,utf8_decode('Es la segunda consola de sobremesa producida por
-Sony Computer Entertainment, y la tercera consola 
-de Sony en ser diseñada por Ken Kutaragi. Además 
-de ser la sucesora de la PlayStation.
-
-Fue lanzada por primera vez el 4 de marzo
-del año 2000 en Japón, y unos meses después 
-en el resto del mundo. Es la videoconsola más
-vendida de la historia, con más de 160 millones de
-unidades vendidas. Esta consola es también la que 
-más títulos posee, aproximadamente 3870 títulos 
-(y no 10000 como muchos creen), seguida por su 
-predecesora la PlayStation con unos 2500 títulos.'));
+      $pdf->Write(10,utf8_decode('Es la segunda videoconsola de sobremesa de
+la marca Xbox producida por Microsoft. Fue 
+desarrollada en colaboración con IBM y ATI
+(AMD) y lanzada en América del Sur, América
+del Norte, Japón, Europa y Australia entre 
+2005 y 2006. Su servicio Xbox Live (de pago) 
+permite a los jugadores competir en línea y 
+descargar contenidos como juegos arcade, 
+demos, tráileres, programas de televisión y
+películas. La Xbox 360 es la sucesora directa
+de la Xbox, y compitió con la PlayStation 3
+de Sony y Wii de Nintendo como parte de las 
+videoconsolas de séptima generación.'));
 $pdf->Ln(35);//salto de linea
 $fill=true;
          $pdf->SetTextColor(255,255,255);//Opacidad del texto
@@ -263,7 +263,7 @@ $fill=true;
     
     $pdf->AddPage();
     $pdf->SetY(37);
-     $pdf->Image('images/Cotizaciones/play-2-3.jpg',0,0,210);//imagen Linea del footer  margen izq / altura top / tamaño
+     $pdf->Image('images/Cotizaciones/xbox-2-3.jpg',0,0,210);//imagen Linea del footer  margen izq / altura top / tamaño
 
 
 $pdf->SetFont('helvetica','',12);//letra:   tipo / negrita / tamaño
@@ -290,7 +290,7 @@ $fill=true;
     $pdf->SetFont('helvetica','B',12);//letra:   tipo / negrita=B  italica=I subrayado=U / tamaño
 $pdf->Cell(50,10,utf8_decode("Producto"),1,0, 'L');
 $pdf->SetTextColor(25,25,25);//Opacidad del texto
-$pdf->Cell(30,10,"PlayStation 2",1,0,'L');
+$pdf->Cell(30,10,"Xbox 360",1,0,'L');
         $pdf->Ln(10);//salto de linea
          $pdf->SetFillColor(6,47,72);//color de la celda
            $pdf->SetFont('helvetica','B',12);//letra:   tipo / negrita=B  italica=I subrayado=U / tamaño
@@ -513,7 +513,7 @@ function contadorvisitas()
      $this->SetFillColor(255,255,255);//color texto
      $this->SetTextColor(20);//Opacidad del texto
 //Datos
-        $this->Image('images/Cotizaciones/play-2-1.jpg',0,0,210);//imagen imagen principal  margen izq / altura top / tamaño
+        $this->Image('images/Cotizaciones/xbox-2-1.jpg',0,0,210);//imagen imagen principal  margen izq / altura top / tamaño
          $this->Image('images/logo.png',-1,0,50);//imagen imagen principal  margen izq / altura top / tamaño
          $this->SetTextColor(255,255,255);//Opacidad del texto
 
@@ -582,7 +582,7 @@ $this->cell(110,5,'           315 739 9574',0,'','L',0,'https://api.whatsapp.com
     
      $pdf->AddPage3();
     $pdf->SetY(37);
-$pdf->Image('images/Cotizaciones/play-2-2.jpg',0,0,210);//imagen Linea del footer  margen izq / altura top / tamaño
+$pdf->Image('images/Cotizaciones/xbox-2-2.jpg',0,0,210);//imagen Linea del footer  margen izq / altura top / tamaño
 $pdf->SetFont('helvetica','',12);//letra:   tipo / negrita / tamaño
 $fill=false;
 $fill=!$fill;   
@@ -600,23 +600,23 @@ $fill=true;
     $pdf->SetTextColor(0,0,0);//Opacidad del texto
     $pdf->SetFont('helvetica','B', 15);//letra:   tipo / negrita=B  italica=I subrayado=U / tamaño
 
-    $pdf->Write(8,utf8_decode('LA SEGUNDA EDICION DEL PS'));
+    $pdf->Write(8,utf8_decode('LA 360 DE SIEMPRE'));
      $pdf->SetTextColor(64,64,65);//Opacidad del texto
     $pdf->Ln(10);//salto de linea  
     $pdf->SetFont('helvetica','', 12);//letra:   tipo / negrita=B  italica=I subrayado=U / tamaño
-       $pdf->Write(10,utf8_decode('Es la segunda consola de sobremesa producida por
-Sony Computer Entertainment, y la tercera consola 
-de Sony en ser diseñada por Ken Kutaragi. Además 
-de ser la sucesora de la PlayStation.
-
-Fue lanzada por primera vez el 4 de marzo
-del año 2000 en Japón, y unos meses después 
-en el resto del mundo. Es la videoconsola más
-vendida de la historia, con más de 160 millones de
-unidades vendidas. Esta consola es también la que 
-más títulos posee, aproximadamente 3870 títulos 
-(y no 10000 como muchos creen), seguida por su 
-predecesora la PlayStation con unos 2500 títulos.'));
+      $pdf->Write(10,utf8_decode('Es la segunda videoconsola de sobremesa de
+la marca Xbox producida por Microsoft. Fue 
+desarrollada en colaboración con IBM y ATI
+(AMD) y lanzada en América del Sur, América
+del Norte, Japón, Europa y Australia entre 
+2005 y 2006. Su servicio Xbox Live (de pago) 
+permite a los jugadores competir en línea y 
+descargar contenidos como juegos arcade, 
+demos, tráileres, programas de televisión y
+películas. La Xbox 360 es la sucesora directa
+de la Xbox, y compitió con la PlayStation 3
+de Sony y Wii de Nintendo como parte de las 
+videoconsolas de séptima generación.'));
 $pdf->Ln(35);//salto de linea
 $fill=true;
          $pdf->SetTextColor(255,255,255);//Opacidad del texto
@@ -631,7 +631,7 @@ $fill=true;
     
     $pdf->AddPage();
     $pdf->SetY(37);
-     $pdf->Image('images/Cotizaciones/play-2-3.jpg',0,0,210);//imagen Linea del footer  margen izq / altura top / tamaño
+     $pdf->Image('images/Cotizaciones/xbox-2-3.jpg',0,0,210);//imagen Linea del footer  margen izq / altura top / tamaño
 
 
 $pdf->SetFont('helvetica','',12);//letra:   tipo / negrita / tamaño
@@ -658,7 +658,7 @@ $fill=true;
     $pdf->SetFont('helvetica','B',12);//letra:   tipo / negrita=B  italica=I subrayado=U / tamaño
 $pdf->Cell(50,10,utf8_decode("Producto"),1,0, 'L');
 $pdf->SetTextColor(25,25,25);//Opacidad del texto
-$pdf->Cell(30,10,"PlayStation 2",1,0,'L');
+$pdf->Cell(30,10,"Xbox 360",1,0,'L');
         $pdf->Ln(10);//salto de linea
          $pdf->SetFillColor(6,47,72);//color de la celda
            $pdf->SetFont('helvetica','B',12);//letra:   tipo / negrita=B  italica=I subrayado=U / tamaño

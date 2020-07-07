@@ -232,33 +232,30 @@ $fill=true;
     $pdf->SetTextColor(0,0,0);//Opacidad del texto
     $pdf->SetFont('helvetica','B', 15);//letra:   tipo / negrita=B  italica=I subrayado=U / tamaño
 
-    $pdf->Write(8,utf8_decode('LA CONSOLA DE NUESTRA INFANCIA'));
+    $pdf->Write(8,utf8_decode('LA NUEVA GENERACION DEL PS'));
      $pdf->SetTextColor(64,64,65);//Opacidad del texto
     $pdf->Ln(10);//salto de linea  
     $pdf->SetFont('helvetica','', 12);//letra:   tipo / negrita=B  italica=I subrayado=U / tamaño
-      $pdf->Write(8,utf8_decode('la primera videoconsola de Sony, y la primera de }
-dicha compañía en ser diseñada por Ken Kutaragi,
-y es una videoconsola de sobremesa de 32 bits 
-lanzada por Sony Computer Entertainment el 3 de
-diciembre de 1994 en Japón. Se considera la 
-videoconsola más exitosa de la quinta generación 
-tanto en ventas como en popularidad.
+      $pdf->Write(8,utf8_decode('es la tercera videoconsola del modelo PlayStation
+de Sony Computer Entertainment. Es la quinta y
+última consola de Sony en ser diseñada por Ken
+Kutaragi y forma parte de las videoconsolas de 
+séptima generación y sus competidores son la Xbox
+360 de Microsoft y la Wii de Nintendo.
 
-- FORMA: Forma ovalada en forma de disco, ideal 
-para la instalacion del cd juntos a sus dos botones
-de accionamiento manual.
-
-- BOTONES: Botone de RESET y boton de EJECT
-los cuales se accionaran medianteuna suave
-presion en su parte superior cerca al lente.
-
-- COMPATIBILIDAD: Compatible con los discos
-formato CD para PS1, contiene en su interior
-un lente capas de leer una gran variedad de discos.
-
-- DISEÑO: Diseño sencillo y nostalgico, la clasica
-con la que jugamos muchos cuando niños donde
-pasamos los mejores momentos de la infancia.'));
+Sony confirmó, en marzo de 2017, que dejaría de 
+fabricar la consola en Japón.6​ En la cual finalmente 
+se dejó de hacer su producción el 29 de mayo de 
+2017, así mismo finalizando su producción única
+en Japón en 2017, en Nueva Zelanda en el 2015, en 
+Estados Unidos en marzo de 2016 y el resto de
+Norteamérica en octubre de ese año, pero la 
+producción alrededor del mundo sigue presente, 
+exceptuando su servicio en línea que igual está 
+presente,a excepción de algunos servidores de
+ciertos títulos que ya cesaron su servicio en 
+línea, un ejemplo de un juego que ya haya cesado
+servicios en la consola sería el PES 2015.'));
 $pdf->Ln(35);//salto de linea
 $fill=true;
          $pdf->SetTextColor(255,255,255);//Opacidad del texto
@@ -610,33 +607,30 @@ $fill=true;
     $pdf->SetTextColor(0,0,0);//Opacidad del texto
     $pdf->SetFont('helvetica','B', 15);//letra:   tipo / negrita=B  italica=I subrayado=U / tamaño
 
-    $pdf->Write(8,utf8_decode('LA CONSOLA DE NUESTRA INFANCIA'));
+    $pdf->Write(8,utf8_decode('LA NUEVA GENERACION DEL PS'));
      $pdf->SetTextColor(64,64,65);//Opacidad del texto
     $pdf->Ln(10);//salto de linea  
     $pdf->SetFont('helvetica','', 12);//letra:   tipo / negrita=B  italica=I subrayado=U / tamaño
-      $pdf->Write(8,utf8_decode('la primera videoconsola de Sony, y la primera de }
-dicha compañía en ser diseñada por Ken Kutaragi,
-y es una videoconsola de sobremesa de 32 bits 
-lanzada por Sony Computer Entertainment el 3 de
-diciembre de 1994 en Japón. Se considera la 
-videoconsola más exitosa de la quinta generación 
-tanto en ventas como en popularidad.
+      $pdf->Write(8,utf8_decode('es la tercera videoconsola del modelo PlayStation
+de Sony Computer Entertainment. Es la quinta y
+última consola de Sony en ser diseñada por Ken
+Kutaragi y forma parte de las videoconsolas de 
+séptima generación y sus competidores son la Xbox
+360 de Microsoft y la Wii de Nintendo.
 
-- FORMA: Forma ovalada en forma de disco, ideal 
-para la instalacion del cd juntos a sus dos botones
-de accionamiento manual.
-
-- BOTONES: Botone de RESET y boton de EJECT
-los cuales se accionaran medianteuna suave
-presion en su parte superior cerca al lente.
-
-- COMPATIBILIDAD: Compatible con los discos
-formato CD para PS1, contiene en su interior
-un lente capas de leer una gran variedad de discos.
-
-- DISEÑO: Diseño sencillo y nostalgico, la clasica
-con la que jugamos muchos cuando niños donde
-pasamos los mejores momentos de la infancia.'));
+Sony confirmó, en marzo de 2017, que dejaría de 
+fabricar la consola en Japón.6​ En la cual finalmente 
+se dejó de hacer su producción el 29 de mayo de 
+2017, así mismo finalizando su producción única
+en Japón en 2017, en Nueva Zelanda en el 2015, en 
+Estados Unidos en marzo de 2016 y el resto de
+Norteamérica en octubre de ese año, pero la 
+producción alrededor del mundo sigue presente, 
+exceptuando su servicio en línea que igual está 
+presente,a excepción de algunos servidores de
+ciertos títulos que ya cesaron su servicio en 
+línea, un ejemplo de un juego que ya haya cesado
+servicios en la consola sería el PES 2015.'));
 $pdf->Ln(35);//salto de linea
 $fill=true;
          $pdf->SetTextColor(255,255,255);//Opacidad del texto
