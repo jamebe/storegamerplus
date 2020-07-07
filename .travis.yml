@@ -1,6 +1,6 @@
 language: php
 version:
-- "7.2.28"
+#- "7.2.28"
 deploy: 
   provider: pages
   skip_cleanup: true
