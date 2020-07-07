@@ -232,33 +232,23 @@ $fill=true;
     $pdf->SetTextColor(0,0,0);//Opacidad del texto
     $pdf->SetFont('helvetica','B', 15);//letra:   tipo / negrita=B  italica=I subrayado=U / tamaño
 
-    $pdf->Write(8,utf8_decode('LA CONSOLA DE NUESTRA INFANCIA'));
+    $pdf->Write(8,utf8_decode('LA '));
      $pdf->SetTextColor(64,64,65);//Opacidad del texto
     $pdf->Ln(10);//salto de linea  
     $pdf->SetFont('helvetica','', 12);//letra:   tipo / negrita=B  italica=I subrayado=U / tamaño
-      $pdf->Write(8,utf8_decode('la primera videoconsola de Sony, y la primera de }
-dicha compañía en ser diseñada por Ken Kutaragi,
-y es una videoconsola de sobremesa de 32 bits 
-lanzada por Sony Computer Entertainment el 3 de
-diciembre de 1994 en Japón. Se considera la 
-videoconsola más exitosa de la quinta generación 
-tanto en ventas como en popularidad.
-
-- FORMA: Forma ovalada en forma de disco, ideal 
-para la instalacion del cd juntos a sus dos botones
-de accionamiento manual.
-
-- BOTONES: Botone de RESET y boton de EJECT
-los cuales se accionaran medianteuna suave
-presion en su parte superior cerca al lente.
-
-- COMPATIBILIDAD: Compatible con los discos
-formato CD para PS1, contiene en su interior
-un lente capas de leer una gran variedad de discos.
-
-- DISEÑO: Diseño sencillo y nostalgico, la clasica
-con la que jugamos muchos cuando niños donde
-pasamos los mejores momentos de la infancia.'));
+      $pdf->Write(12,utf8_decode('Es la cuarta videoconsola del modelo PlayStation.
+Es la segunda consola de Sony en ser diseñada 
+por Mark Cerny y forma parte de las videoconsolas 
+de octava generación. Fue anunciada oficialmente
+el 20 de febrero de 2013 en el evento PlayStation
+Meeting 2013, aunque el diseño de la consola 
+no fue presentado hasta el 10 de junio en el E3 
+2013.102Es la sucesora de la PlayStation 3 y 
+compite con Wii U y Switch de Nintendo y Xbox 
+One de Microsoft. Su lanzamiento fue el 15 de
+noviembre de 2013 en Estados Unidos y en Europa
+y Sudamérica fue el 29 de noviembre de 2013,11
+mientras que en Japón fue el 22 de febrero de 2014.'));
 $pdf->Ln(35);//salto de linea
 $fill=true;
          $pdf->SetTextColor(255,255,255);//Opacidad del texto
@@ -610,33 +600,23 @@ $fill=true;
     $pdf->SetTextColor(0,0,0);//Opacidad del texto
     $pdf->SetFont('helvetica','B', 15);//letra:   tipo / negrita=B  italica=I subrayado=U / tamaño
 
-    $pdf->Write(8,utf8_decode('LA CONSOLA DE NUESTRA INFANCIA'));
+    $pdf->Write(8,utf8_decode('LA ULTIMA CONSOLA DE PS'));
      $pdf->SetTextColor(64,64,65);//Opacidad del texto
     $pdf->Ln(10);//salto de linea  
     $pdf->SetFont('helvetica','', 12);//letra:   tipo / negrita=B  italica=I subrayado=U / tamaño
-      $pdf->Write(8,utf8_decode('la primera videoconsola de Sony, y la primera de }
-dicha compañía en ser diseñada por Ken Kutaragi,
-y es una videoconsola de sobremesa de 32 bits 
-lanzada por Sony Computer Entertainment el 3 de
-diciembre de 1994 en Japón. Se considera la 
-videoconsola más exitosa de la quinta generación 
-tanto en ventas como en popularidad.
-
-- FORMA: Forma ovalada en forma de disco, ideal 
-para la instalacion del cd juntos a sus dos botones
-de accionamiento manual.
-
-- BOTONES: Botone de RESET y boton de EJECT
-los cuales se accionaran medianteuna suave
-presion en su parte superior cerca al lente.
-
-- COMPATIBILIDAD: Compatible con los discos
-formato CD para PS1, contiene en su interior
-un lente capas de leer una gran variedad de discos.
-
-- DISEÑO: Diseño sencillo y nostalgico, la clasica
-con la que jugamos muchos cuando niños donde
-pasamos los mejores momentos de la infancia.'));
+      $pdf->Write(12,utf8_decode('Es la cuarta videoconsola del modelo PlayStation.
+Es la segunda consola de Sony en ser diseñada 
+por Mark Cerny y forma parte de las videoconsolas 
+de octava generación. Fue anunciada oficialmente
+el 20 de febrero de 2013 en el evento PlayStation
+Meeting 2013, aunque el diseño de la consola 
+no fue presentado hasta el 10 de junio en el E3 
+2013.102Es la sucesora de la PlayStation 3 y 
+compite con Wii U y Switch de Nintendo y Xbox 
+One de Microsoft. Su lanzamiento fue el 15 de
+noviembre de 2013 en Estados Unidos y en Europa
+y Sudamérica fue el 29 de noviembre de 2013,11
+mientras que en Japón fue el 22 de febrero de 2014.'));
 $pdf->Ln(35);//salto de linea
 $fill=true;
          $pdf->SetTextColor(255,255,255);//Opacidad del texto
